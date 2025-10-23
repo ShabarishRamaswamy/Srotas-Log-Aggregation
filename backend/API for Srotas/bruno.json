@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "API for Srotas",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}

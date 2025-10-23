@@ -1,0 +1,22 @@
+meta {
+  name: New Log
+  type: http
+  seq: 1
+}
+
+post {
+  url: {{BASE_URL}}/log
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "log": "This is the first log"
+  }
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}
